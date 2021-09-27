@@ -9,6 +9,6 @@ public class student {
     @GetMapping(value="/student/get")
     public String display(){
         return "sample...";
-        
+
     }
 }
