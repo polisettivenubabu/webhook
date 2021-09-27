@@ -11,6 +11,7 @@ public class Book {
     @PostMapping
     public ResponseEntity<String> print(@RequestBody String rbody){
         System.out.println("sample"+ rbody);
+
         return new ResponseEntity<String> (rbody, HttpStatus.OK);
     }
 
